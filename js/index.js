@@ -78,8 +78,18 @@ $(function() {
 $(".page1-Building").fadeIn(400,function(){
 	$(".page1-flight").animate({width:"70%"},{duration:2000})
 })
-
-
+//音乐播放停止
+$(".musicbtn").click(function(){
+	var music = $("#music")[0];
+	if(music.paused){
+		music.play()
+		$(this).attr("src","img/musicBtn.png");
+	}
+	else{
+		music.pause();
+		$(this).attr("src","img/musicBtnOff.png");
+	}
+})
 
 /*$(document).ready(function(){
 	

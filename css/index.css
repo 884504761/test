@@ -222,6 +222,7 @@ img{
 	left: 23%;
 	width: 50%;
 	animation: flight 4s linear infinite;
+	z-index: 1;
 }
 
 .page4-onbg{
@@ -241,4 +242,9 @@ img{
 	width: 40px;
 	height: 40px;
 	background: cornflowerblue;
+}
+
+.musicbtn{
+	right: 0;
+	top: 0;
 }
